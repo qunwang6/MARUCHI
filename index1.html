@@ -1,0 +1,55 @@
+﻿<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8"/>
+<title>index1</title>
+<SCRIPT LANGUAGE="JavaScript">
+	var msg;
+	msg="Welcome to My Flower Shop 。。。。。。　　　　　";
+	msg=msg+msg+msg+msg;
+	function disp(){
+		setTimeout("disp()",100);
+		msg=msg.substring(2,msg.length)+msg.substring(0,2);
+		document.MyForm.box.value=msg;
+		
+	}
+</SCRIPT>
+
+<style type="text/css"><!--
+body {background-color:LightBlue;margin:50px 100px 30px 100px}
+h1 {font-size:38px;background-color:LightRed;width:350px;}
+
+--></style>
+</head>
+<body onLoad="disp()">
+<center>
+<body>
+<h1>旅行会社MARUCHI</h1>
+<SCRIPT LANGUAGE="JavaScript">
+	var msg;
+	msg="ようこそMARUCHIME旅行会社。。。。。。　　　　　";
+	msg=msg+msg+msg+msg;
+	function disp(){
+		setTimeout("disp()",100);
+		msg=msg.substring(2,msg.length)+msg.substring(0,2);
+		document.MyForm.box.value=msg;
+		
+	}
+</SCRIPT>
+</head>
+<body onLoad="disp()">
+<center>
+<br>
+<br>
+<br>
+<FORM NAME="MyForm">
+<INPUT NAME="box" TYPE="text" SIZE=40>
+</FORM>
+</center>
+<p><img src="img/travel-language-tips.jpg" width="350" height="249" alt=""></p>
+<p>&nbsp;</p>	
+
+</body>
+</center>
+</html>
+
